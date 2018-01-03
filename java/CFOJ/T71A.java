@@ -1,4 +1,4 @@
-package sosoalgorithm.CF;
+package sosoalgorithm.java.CFOJ;
 
 import java.util.Scanner;
 

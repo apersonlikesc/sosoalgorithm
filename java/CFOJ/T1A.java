@@ -1,4 +1,4 @@
-package sosoalgorithm.CF;
+package sosoalgorithm.java.CFOJ;
 
 import java.math.BigInteger;
 import java.util.Scanner;
