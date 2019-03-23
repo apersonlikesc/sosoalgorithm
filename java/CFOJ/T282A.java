@@ -1,5 +1,3 @@
-package sosoalgorithm.java.CFOJ;
-
 import java.util.Scanner;
 
 public class T282A {

@@ -1,4 +1,3 @@
-package sosoalgorithm.java.CFOJ;
 /*
  * A. Insomnia cure
 time limit per test2 seconds

@@ -1,7 +1,6 @@
-package sosoalgorithm.java.CFOJ;
 
 import java.util.Scanner;
-//Òª¸Ä±äµÄÊÇ:È«ÊÇ´óÐ´,»òÕß¿ªÍ·Ð¡Ð´Ö®ºó´óÐ´
+//Òªï¿½Ä±ï¿½ï¿½ï¿½ï¿½:È«ï¿½Ç´ï¿½Ð´,ï¿½ï¿½ï¿½ß¿ï¿½Í·Ð¡Ð´Ö®ï¿½ï¿½ï¿½Ð´
 public class T131A {
 	public static void main(String[] args) {
 		Scanner sin = new Scanner(System.in);
