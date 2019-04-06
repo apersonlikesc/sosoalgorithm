@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution10 {
     private int[] fib = new int[40];
 

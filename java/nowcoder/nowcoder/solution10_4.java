@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution10_4 {
     public int JumpFloorII(int target) {
         return (int) Math.pow(2, target - 1);

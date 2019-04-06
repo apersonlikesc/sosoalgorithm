@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution10_2 {
     public int RectCover(int n)
     {

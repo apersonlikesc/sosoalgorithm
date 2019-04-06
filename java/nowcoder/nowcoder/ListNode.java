@@ -1,4 +1,6 @@
-  public class ListNode {
+package nowcoder;
+
+public class ListNode {
       int val;
       ListNode next = null;
 

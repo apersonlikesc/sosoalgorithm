@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution4 {
     public boolean Find(int target, int [][] array) {
         if(array==null || array.length == 0|| array[0].length == 0)

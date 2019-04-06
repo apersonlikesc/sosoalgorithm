@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution8 {
     public TreeLinkNode GetNext(TreeLinkNode pNode) {
         if(pNode.right!=null)

@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution10_3 {
     public int JumpFloor(int target) {
         if(target <=2){

@@ -1,4 +1,4 @@
-import org.omg.CORBA.INTERNAL;
+package nowcoder;
 
 import java.util.HashMap;
 import java.util.Map;

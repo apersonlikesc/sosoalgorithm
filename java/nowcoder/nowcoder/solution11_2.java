@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution11_2 {
     public int minNumberInRotateArray(int[] nums) {
         if(nums.length == 0)

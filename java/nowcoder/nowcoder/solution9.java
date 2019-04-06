@@ -1,3 +1,5 @@
+package nowcoder;
+
 import java.util.Stack;
 
 public class solution9 {

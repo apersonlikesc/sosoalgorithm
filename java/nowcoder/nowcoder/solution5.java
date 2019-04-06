@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution5 {
     public String replaceSpace(StringBuffer str) {
         int p1 = str.length() -1;

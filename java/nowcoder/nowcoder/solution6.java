@@ -1,3 +1,5 @@
+package nowcoder;
+
 import java.util.ArrayList;
 
 public class solution6 {

@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class solution3 {
         // Parameters:
         //    numbers:     an array of integers

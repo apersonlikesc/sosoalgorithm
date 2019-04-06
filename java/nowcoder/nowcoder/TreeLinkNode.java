@@ -1,3 +1,5 @@
+package nowcoder;
+
 public class TreeLinkNode {
 
     int val;
