@@ -1,9 +1,10 @@
-import java.util.Stack;
+import nowcoder.solution19;
+import nowcoder.solution29;
 
 public class Main {
     public static void main(String[] args) {
-//        solution20 solution20 = new solution20();
-//        System.out.println(solution20.isValid("((())"));
+//        nowcoder.solution19 nowcoder.solution19 = new nowcoder.solution19();
+//        System.out.println(nowcoder.solution19.isValid("((())"));
 
 //        solution155 solution155 = new solution155();
 //        solution155.push(-1);
@@ -28,12 +29,23 @@ public class Main {
 //         int param_4 = obj.Rear();
 //         boolean param_5 = obj.isEmpty();
 //         boolean param_6 = obj.isFull();
-        ListNode a = new ListNode(1);
-        ListNode b = new ListNode(2);
-        ListNode c = new ListNode(3);
-        a.next = b;
-        b.next = c;
-        solution6 solution6 = new solution6();
-        solution6.printListFromTailToHead(a);
+//        nowcoder.ListNode a = new nowcoder.ListNode(1);
+//        nowcoder.ListNode b = new nowcoder.ListNode(2);
+//        nowcoder.ListNode c = new nowcoder.ListNode(3);
+//        a.next = b;
+//        b.next = c;
+//        nowcoder.solution6 nowcoder.solution6 = new nowcoder.solution6();
+//        nowcoder.solution6.printListFromTailToHead(a);
+//        nowcoder.solution14_2 nowcoder.solution14_2 = new nowcoder.solution14_2();
+//        nowcoder.solution14_2.integerBreak(9);
+//        solution19 solution20 = new solution19();
+//        char[] str= {'a','a','b','b','c'};
+//        char[] pattern = {'a','*','b','.','c'};
+//        solution20.match(str,pattern);
+
+        solution29 solution29 = new solution29();
+        int[][] a = {{1,2},{3,4}};
+        solution29.printMatrix(a);
+
     }
 }
