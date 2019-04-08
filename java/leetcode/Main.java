@@ -1,5 +1,4 @@
-import nowcoder.solution19;
-import nowcoder.solution29;
+import nowcoder.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,9 +42,15 @@ public class Main {
 //        char[] pattern = {'a','*','b','.','c'};
 //        solution20.match(str,pattern);
 
-        solution29 solution29 = new solution29();
-        int[][] a = {{1,2},{3,4}};
-        solution29.printMatrix(a);
-
+//        solution29 solution29 = new solution29();
+//        int[][] a = {{1,2},{3,4}};
+//        solution29.printMatrix(a);
+//        solution31 solution31 = new solution31();
+//        int[] a = {1,2,3,4,5};
+//        int[] b = {4,5,3,2,1};
+//        solution31.IsPopOrder(a,b);
+        solution33 solution33 = new solution33();
+        int[] a = {3,4,6,5};
+        solution33.VerifySquenceOfBST(a);
     }
 }
