@@ -49,8 +49,10 @@ public class Main {
 //        int[] a = {1,2,3,4,5};
 //        int[] b = {4,5,3,2,1};
 //        solution31.IsPopOrder(a,b);
-        solution33 solution33 = new solution33();
-        int[] a = {3,4,6,5};
-        solution33.VerifySquenceOfBST(a);
+//        solution33 solution33 = new solution33();
+//        int[] a = {3,4,6,5};
+//        solution33.VerifySquenceOfBST(a);
+            solution38_2 solution38 = new solution38_2();
+            solution38.Permutation("aac");
     }
 }
