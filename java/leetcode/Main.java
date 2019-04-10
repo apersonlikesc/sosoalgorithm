@@ -52,7 +52,18 @@ public class Main {
 //        solution33 solution33 = new solution33();
 //        int[] a = {3,4,6,5};
 //        solution33.VerifySquenceOfBST(a);
-            solution38_2 solution38 = new solution38_2();
-            solution38.Permutation("aac");
+//            solution38_2 solution38 = new solution38_2();
+//            solution38.Permutation("aac");
+//        solution40_2 solution40_2 = new solution40_2();
+//        int[] input = {2,3,4,5,1,2,1,33,4,5,1,2,1};
+//        solution40_2.GetLeastNumbers_Solution(input,3);
+
+        solution41 solution41 = new solution41();
+        int[] input = {2,3,4,5,1,2,1,33,4,5,1,2,1};
+        for(int num:input)
+        {
+            solution41.Insert(num);
+        }
+        solution41.GetMedian();
     }
 }
