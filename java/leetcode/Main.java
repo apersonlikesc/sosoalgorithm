@@ -58,12 +58,17 @@ public class Main {
 //        int[] input = {2,3,4,5,1,2,1,33,4,5,1,2,1};
 //        solution40_2.GetLeastNumbers_Solution(input,3);
 
-        solution41 solution41 = new solution41();
-        int[] input = {2,3,4,5,1,2,1,33,4,5,1,2,1};
-        for(int num:input)
-        {
-            solution41.Insert(num);
-        }
-        solution41.GetMedian();
+//        solution41 solution41 = new solution41();
+//        int[] input = {2,3,4,5,1,2,1,33,4,5,1,2,1};
+//        for(int num:input)
+//        {
+//            solution41.Insert(num);
+//        }
+//        solution41.GetMedian();
+
+//        solution46 solution46 = new solution46();
+//        solution46.numDecoding("1228");
+        solution49 solution49 =new solution49();
+        System.out.println(solution49.GetUglyNumber_Solution(7));
     }
 }
