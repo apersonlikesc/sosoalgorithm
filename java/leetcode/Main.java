@@ -68,7 +68,17 @@ public class Main {
 
 //        solution46 solution46 = new solution46();
 //        solution46.numDecoding("1228");
-        solution49 solution49 =new solution49();
-        System.out.println(solution49.GetUglyNumber_Solution(7));
+//        solution49 solution49 =new solution49();
+//        System.out.println(solution49.GetUglyNumber_Solution(7));
+//            solution51 solution51 = new solution51();
+//            int[] a = {7,5,6,4};
+//            solution51.InversePairs(a);
+
+//        solution53 solution53 = new solution53();
+//        int[] a = {1,2,3,3,3,3,5,5};
+//        solution53.GetNumberOfK(a,3);
+
+        solution58 solution58 = new solution58();
+        solution58.ReverseSentence("I am A student");
     }
 }
