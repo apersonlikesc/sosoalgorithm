@@ -78,7 +78,11 @@ public class Main {
 //        int[] a = {1,2,3,3,3,3,5,5};
 //        solution53.GetNumberOfK(a,3);
 
-        solution58 solution58 = new solution58();
-        solution58.ReverseSentence("I am A student");
+//        solution58 solution58 = new solution58();
+//        solution58.ReverseSentence("I am A student");
+
+        solution66 solution66 = new solution66();
+        int[] a = {1,2,3};
+        solution66.multiply(a);
     }
 }
