@@ -85,7 +85,10 @@ public class Main {
 //        int[] a = {1,2,3};
 //        solution66.multiply(a);
 
-        solution680_2 solution680 = new solution680_2();
-        solution680.validPalindrome("cupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucu");
+//        solution680_2 solution680 = new solution680_2();
+//        solution680.validPalindrome("cupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucu");
+
+        solution423 solution423 = new solution423();
+        solution423.originalDigits("zeroonetwothreefourfivesixseveneightnine");
     }
 }
