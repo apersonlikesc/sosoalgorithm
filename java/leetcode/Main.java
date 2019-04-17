@@ -95,9 +95,15 @@ public class Main {
 //        int[][] a = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
 //        solution406.reconstructQueue(a);
 
-        solution665 solution665 = new solution665();
-        int[] nums = {4,2,3};
-        System.out.println(solution665.checkPossibility(nums));
+//        solution665 solution665 = new solution665();
+//        int[] nums = {4,2,3};
+//        System.out.println(solution665.checkPossibility(nums));
+
+//        solution69 solution69 = new solution69();
+//        System.out.println(solution69.mySqrt(2147483647));
+        solution744 solution744 = new solution744();
+        char[] c = {'c','f','z'};
+        System.out.println(solution744.nextGreatestLetter(c,'c'));
 
     }
 }
