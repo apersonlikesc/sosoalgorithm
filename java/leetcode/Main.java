@@ -88,7 +88,16 @@ public class Main {
 //        solution680_2 solution680 = new solution680_2();
 //        solution680.validPalindrome("cupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucu");
 
-        solution423 solution423 = new solution423();
-        solution423.originalDigits("zeroonetwothreefourfivesixseveneightnine");
+//        solution423 solution423 = new solution423();
+//        solution423.originalDigits("zeroonetwothreefourfivesixseveneightnine");
+
+//        solution406 solution406 = new solution406();
+//        int[][] a = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+//        solution406.reconstructQueue(a);
+
+        solution665 solution665 = new solution665();
+        int[] nums = {4,2,3};
+        System.out.println(solution665.checkPossibility(nums));
+
     }
 }
