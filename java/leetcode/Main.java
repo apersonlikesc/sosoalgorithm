@@ -101,9 +101,13 @@ public class Main {
 
 //        solution69 solution69 = new solution69();
 //        System.out.println(solution69.mySqrt(2147483647));
-        solution744 solution744 = new solution744();
-        char[] c = {'c','f','z'};
-        System.out.println(solution744.nextGreatestLetter(c,'c'));
+//        solution744 solution744 = new solution744();
+//        char[] c = {'c','f','z'};
+//        System.out.println(solution744.nextGreatestLetter(c,'c'));
 
+        solution34 solution34 = new solution34();
+        int[] a = {3,7,7,8,8,10};
+
+        int[] b =solution34.searchRange(a,6);
     }
 }
