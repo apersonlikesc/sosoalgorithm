@@ -1,7 +1,7 @@
 package sort;
 public class Bubble_Sort {
     //冒泡排序
-    public int[] bubbleSort(int[] a){
+    public int[] sort(int[] a){
         if(a == null ||a.length==0)
         {
             return a;

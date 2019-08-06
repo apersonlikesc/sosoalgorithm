@@ -3,31 +3,36 @@ package sort;
 import Util.Util;
 
 public class quickSort {
-    public int[] quickSort(int[] a){
-        for(int i = 0;i<a.length;i++)
+    //得调用递归,之前不用递归出不来...
+    public int[] sort(int[] a,int low,int high){
+        if(low<high)
         {
-            int start = 0;
-            int end = a.length -1;
-            boolean swap = false;
-            int one = a[i];
-            while(start != end)
-            {
-                if(!swap)
-                {
-                    if(one > a[end]){
-                        Util.swap(a,start,end);
-                        swap = true;
-                    }
-                    end--;
-                }else{
-                    if(one < a[start]){
-                        Util.swap(a,start,end);
-                        swap = false;
-                    }
-                    start++;
-                }
-            }
+            int index = partition(a,low,high);
+            sort(a,low,index-1);
+            sort(a,index+1,high);
         }
         return a;
+
     }
+
+    public int partition(int[] a,int low,int high)
+    {
+        int pivot = a[low];
+        while(low<high)
+        {
+            while(low<high && pivot <= a[high])
+            {
+                high--;
+            }
+            a[low] = a[high];//由于有个副本pivot,所以直接覆盖了
+            while(low<high && pivot >= a[low]){
+                low++;
+            }
+            a[high] = a[low];
+        }
+        a[low] = pivot;
+        return low;
+    }
+
+
 }
