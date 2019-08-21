@@ -1,7 +1,5 @@
 package leetcode.retry;
 
-import java.util.LinkedList;
-
 public class Util {
     public static TreeNode GenerateTree(Integer[] a,int index)
     {
@@ -18,4 +16,9 @@ public class Util {
         Head.right = GenerateTree(a,2*index+2);
         return Head;
     }
+    public static TreeNode GenerateTree(Integer[] a)
+    {
+        return GenerateTree(a,0);
+    }
+
 }
